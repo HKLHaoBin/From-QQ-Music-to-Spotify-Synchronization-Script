@@ -184,13 +184,14 @@ def get_song_info_from_windows(windows):
                 song_name = window_text.split('-')[0].strip()
                 # 示例文本
                 song_name_text = song_name
+                chinese = re.findall(r'[\u4e00-\u9fff]+', song_name_text)
+                english = re.findall(r'[a-zA-Z\s]+', song_name_text)
 
-                song_name = get_song_name(song_name_text)
-
+                if chinese and english:
+                    song_name = get_song_name(song_name_text)
+                else:
+                    print("chinese 或 english 其中一个为空")
                 print("选择的歌曲名称:", song_name)
-                #track_id = search_song_on_spotify(song_name)
-                #if track_id:
-                #    play_song_on_spotify(track_id)
                 search_and_play_song(song_name)
 
 
