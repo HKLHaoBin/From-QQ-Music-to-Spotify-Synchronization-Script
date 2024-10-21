@@ -2,18 +2,18 @@
 
 ## 简介 Introduction
 
-这个脚本可以将 **QQ 音乐** 的播放与 **Spotify** 同步，从而通过 **Lyricify4** 显示歌词。由于 Lyricify4 不支持 QQ 音乐，这个脚本通过在您在 QQ 音乐上播放歌曲时自动在 Spotify 上播放相同的歌曲来弥补这一差距。
+这个脚本可以将 **QQ 音乐** 的播放与 **Spotify** 同步，从而通过 **Lyricify 4** 显示歌词。由于 Lyricify 4 不支持 QQ 音乐，这个脚本通过在您在 QQ 音乐上播放歌曲时自动在 Spotify 上播放相同的歌曲来弥补这一差距。
 
-This script synchronizes the playback of **QQ Music** with **Spotify**, enabling the display of lyrics via **Lyricify4**. Since Lyricify4 does not support QQ Music, this script bridges that gap by automating the playback of the same song on Spotify when you play a song on QQ Music.
+This script synchronizes the playback of **QQ Music** with **Spotify**, enabling the display of lyrics via **Lyricify 4**. Since Lyricify 4 does not support QQ Music, this script bridges that gap by automating the playback of the same song on Spotify when you play a song on QQ Music.
 
 ## 特性 Features
 
 - **同步播放**：监控 QQ 音乐的播放并在 Spotify 上自动播放相同的歌曲。
-- **歌词显示**：与 Lyricify4 一起使用，显示同步的歌词。
+- **歌词显示**：与 Lyricify 4 一起使用，显示同步的歌词。
 - **自动控制**：在同步过程中自动暂停和恢复 QQ 音乐，确保歌词与音乐同步。
 
 - **Playback Synchronization**: Monitors QQ Music playback and automatically plays the same song on Spotify.
-- **Lyrics Display**: Works with Lyricify4 to display synchronized lyrics.
+- **Lyrics Display**: Works with Lyricify 4 to display synchronized lyrics.
 - **Automated Control**: Automatically pauses and resumes QQ Music during synchronization to ensure lyrics are in sync.
 
 ## 安装 Installation
@@ -51,7 +51,7 @@ This script synchronizes the playback of **QQ Music** with **Spotify**, enabling
 
 1. **在 QQ 音乐上开始播放一首歌曲 Start playing a song on QQ Music**。
 
-2. **打开 Lyricify4 Open Lyricify4**。
+2. **打开 Lyricify 4 Open Lyricify 4**。
 
 3. **运行脚本 Run the script**：
 
@@ -63,7 +63,7 @@ This script synchronizes the playback of **QQ Music** with **Spotify**, enabling
 
 5. **脚本运行后，在 QQ 音乐上播放下一首歌曲 After the script is running, play the next song on QQ Music**。
 
-6. **脚本将同步在 Spotify 上播放，Lyricify4 将显示歌词 The script will synchronize playback on Spotify, and Lyricify4 will display the lyrics**。
+6. **脚本将同步在 Spotify 上播放，Lyricify 4 将显示歌词 The script will synchronize playback on Spotify, and Lyricify 4 will display the lyrics**。
 
 ## 已知问题 Known Issues
 
@@ -135,12 +135,12 @@ This script synchronizes the playback of **QQ Music** with **Spotify**, enabling
 ## 完整流程 Full Process
 
 1. **QQ 音乐播放歌曲 QQ Music plays a song**。
-2. **打开 Lyricify4 Open Lyricify4**。
+2. **打开 Lyricify 4 Open Lyricify 4**。
 3. **开启程序 `From_QQmusic_to_Spotify_v2.py` Start the script `From_QQmusic_to_Spotify_v2.py`**。
-4. **等待 Lyricify4 发生变化 Wait for Lyricify4 to update**。
+4. **等待 Lyricify 4 发生变化 Wait for Lyricify 4 to update**。
 5. **QQ 音乐播放下一首歌 QQ Music plays the next song**。
 6. **程序为了对准歌词，会主动把 QQ 音乐的音乐暂时暂停，直到 Spotify 音乐启动后 QQ 音乐才会启动 The script pauses QQ Music until Spotify starts playing, then QQ Music resumes**。
-7. **Lyricify4 滚动歌词 Lyricify4 displays the scrolling lyrics**。
+7. **Lyricify 4 滚动歌词 Lyricify 4 displays the scrolling lyrics**。
 
 ## 注意事项 Notes
 
@@ -149,9 +149,9 @@ This script synchronizes the playback of **QQ Music** with **Spotify**, enabling
 
 ## 鸣谢 Acknowledgements
 
-特别感谢 **Lyricify4**，由于这个软件不支持 QQ 音乐，所以这就是我写这个脚本的理由。
+特别感谢 **Lyricify 4**，由于这个软件不支持 QQ 音乐，所以这就是我写这个脚本的理由。
 
-Special thanks to **Lyricify4**. Since this software doesn't support QQ Music, it inspired me to write this script.
+Special thanks to **Lyricify 4**. Since this software doesn't support QQ Music, it inspired me to write this script.
 
 ## 许可证 License
 
