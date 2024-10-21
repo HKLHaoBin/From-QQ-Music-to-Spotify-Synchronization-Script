@@ -1,0 +1,6 @@
+spotipy
+pywin32
+psutil
+selenium
+webdriver-manager
+pywinauto
